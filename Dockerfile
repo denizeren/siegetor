@@ -3,6 +3,9 @@ FROM ubuntu
 ### UPDATE
 RUN apt-get update
 
+### CURL Stuff
+RUN apt-get install -y curl
+
 ### TOR Stuff
 RUN apt-get install -y tor
 
